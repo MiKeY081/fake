@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USAL - News & Blog</title>
+    <link rel="stylesheet" href="css folder/blogpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-container">
+                <a href="#" class="logo">
+                    <!-- <div class="logo-icon"><i class="fas fa-graduation-cap"></i></div> -->
+                    USAL
+                </a>
+                <nav class="nav" id="nav">
+                    <a href="homepage.html" class="nav-link active">Home</a>
+                    <a href="homepage.html#visa" class="nav-link">USA Visa Process</a>
+                    <a href="uni3.html" class="nav-link">Universities</a>
+                    <a href="resource.html#mat" class="nav-link">Resource</a>
+                    <a href="blogpage.html" class="nav-link">BLog & News</a>
+                </nav>
+                <button class="mobile-menu-btn" id="menu-icon">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav" id="mobile-nav">
+        <div class="overlay" id="overlay"></div>
+        <nav class="navbar1">
+            <a href="homepage.html">Home</a>
+            <a href="homepage.html#visa">USA Visa Process</a>
+            <a href="university.html">Universities</a>
+            <a href="resource.html">Materials</a>
+            <a href="blogpage.html">Blog & News</a>
+            <a href="aboutpage.html">Contact</a>
+        </nav>
+        <div class="mobile-menu-footer">
+            <div class="social-links">
+              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+            </div>
+            <a href="#join" class="btn btn-primary btn-block">Join Community</a>
+          </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="blog-hero">
+        <div class="container">
+            <h1 class="blog-hero-title">News & Blog</h1>
+            <p class="blog-hero-subtitle">Stay updated with the latest educational resources, visa processes, and study abroad opportunities</p>
+        </div>
+        <div class="blog-hero-shape"></div>
+    </section>
+
+    <!-- Content Tabs -->
+    <section class="content-tabs">
+        <div class="container">
+            <div class="tabs-container">
+                <button class="tab-button active" data-tab="news">Latest News</button>
+                <button class="tab-button" data-tab="blog">Blog Posts</button>
+                <button class="tab-button" data-tab="university">University Info</button>
+                <button class="tab-button" data-tab="usa-rules">USA Rules</button>
+            </div>
+
+            <!-- News Tab Content -->
+            <div class="tab-content active" id="news-tab">
+                <!-- Featured Article -->
+                <div class="featured-article">
+                    <div class="featured-article-card">
+                        <div class="featured-article-img-container">
+                            <img src="./photo-folder/close-up-students-library.jpg" alt="Featured Article" class="featured-article-img">
+                        </div>
+                        <div class="featured-article-body">
+                            <span class="featured-article-category">Featured</span>
+                            <h3 class="featured-article-title">Complete Guide to the US Student Visa Process in 2024</h3>
+                            <div class="featured-article-meta">
+                                <div class="featured-article-date">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <span>March 15, 2024</span>
+                                </div>
+                                <div class="featured-article-read-time">
+                                    <i class="fas fa-clock"></i>
+                                    <span>8 min read</span>
+                                </div>
+                            </div>
+                            <p class="featured-article-excerpt">Navigate the complexities of the US student visa process with our comprehensive guide. Learn about application requirements, interview tips, and common pitfalls to avoid.</p>
+                            <a href="blog.html" class="featured-article-btn">
+                                Read Article <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- News Articles Grid -->
+                <div class="article-grid">
+                    <div class="article-card">
+                        <div class="article-card-img-container">
+                            <img src="./photo-folder/close-up-students-library.jpg" alt="News Article" class="article-card-img">
+                            <span class="article-card-category">Education</span>
+                        </div>
+                        <div class="article-card-body">
+                            <div class="article-card-date">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>January 12, 2024</span>
+                            </div>
+                            <h3 class="article-card-title">Top 10 Universities for International Students in 2024</h3>
+                            <p class="article-card-excerpt">Discover the best universities that offer exceptional programs and support for international students pursuing higher education in the United States.</p>
+                            <div class="article-card-footer">
+                                <div class="article-card-author">
+                                    <img src="#" alt="Author" class="article-card-author-img">
+                                    <span class="article-card-author-name">ISIS</span>
+                                </div>
+                                <a href="blog.html" href="" class="article-card-read-more">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="article-card">
+                        <div class="article-card-img-container">
+                            <img src="./photo-folder/close-up-students-library.jpg" alt="News Article" class="article-card-img">
+                            <span class="article-card-category">Visa</span>
+                        </div>
+                        <div class="article-card-body">
+                            <div class="article-card-date">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>February 5, 2024</span>
+                            </div>
+                            <h3 class="article-card-title">F1 Visa Interview: Common Questions and Best Answers</h3>
+                            <p class="article-card-excerpt">Prepare for your F1 visa interview with our comprehensive guide to the most frequently asked questions and expert-recommended responses.</p>
+                            <div class="article-card-footer">
+                                <div class="article-card-author">
+                                    <img src="./photo-folder/USAL.png" alt="Author" class="article-card-author-img">
+                                    <span class="article-card-author-name">Monetize</span>
+                                </div>
+                                <a href="blog.html" class="article-card-read-more">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="article-card">
+                        <div class="article-card-img-container">
+                            <img src="./photo-folder/close-up-students-library.jpg" alt="News Article" class="article-card-img">
+                            <span class="article-card-category">Scholarships</span>
+                        </div>
+                        <div class="article-card-body">
+                            <div class="article-card-date">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>March 18, 2024</span>
+                            </div>
+                            <h3 class="article-card-title">Scholarships for International Students: A Complete Guide</h3>
+                            <p class="article-card-excerpt">Explore various scholarship opportunities available for international students and learn how to craft winning applications to fund your education.</p>
+                            <div class="article-card-footer">
+                                <div class="article-card-author">
+                                    <img src="./photo-folder/USAL.png" alt="Author" class="article-card-author-img">
+                                    <span class="article-card-author-name">kiki the boss</span>
+                                </div>
+                                <a href="blog.html" class="article-card-read-more">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="article-card">
+                        <div class="article-card-img-container">
+                            <img src="./photo-folder/close-up-students-library.jpg" alt="News Article" class="article-card-img">
+                            <span class="article-card-category">Test Prep</span>
+                        </div>
+                        <div class="article-card-body">
+                            <div class="article-card-date">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>April 7, 2024</span>
+                            </div>
+                            <h3 class="article-card-title">TOEFL vs. IELTS: Which English Proficiency Test Should You Take?</h3>
+                            <p class="article-card-excerpt">Compare the two most popular English proficiency tests and determine which one is better suited for your academic and career goals.</p>
+                            <div class="article-card-footer">
+                                <div class="article-card-author">
+                                    <img src="#" alt="Author" class="article-card-author-img">
+                                    <span class="article-card-author-name">Confused</span>
+                                </div>
+                                <a href="blog.html" class="article-card-read-more">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="article-card">
+                        <div class="article-card-img-container">
+                            <img src="./photo-folder/close-up-students-library.jpg" alt="News Article" class="article-card-img">
+                            <span class="article-card-category">Student Life</span>
+                        </div>
+                        <div class="article-card-body">
+                            <div class="article-card-date">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>May 22, 2024</span>
+                            </div>
+                            <h3 class="article-card-title">Adjusting to Life in the US: Tips for International Students</h3>
+                            <p class="article-card-excerpt">Learn how to navigate cultural differences, make friends, and adapt to the American education system with these practical tips for new international students.</p>
+                            <div class="article-card-footer">
+                                <div class="article-card-author">
+                                    <img src="./photo-folder/USAL.png" alt="Author" class="article-card-author-img">
+                                    <span class="article-card-author-name">ISIS</span>
+                                </div>
+                                <a href="blog.html" class="article-card-read-more">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="article-card">
+                        <div class="article-card-img-container">
+                            <img src="./photo-folder/close-up-students-library.jpg" alt="News Article" class="article-card-img">
+                            <span class="article-card-category">Career</span>
+                        </div>
+                        <div class="article-card-body">
+                            <div class="article-card-date">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>June 14, 2024</span>
+                            </div>
+                            <h3 class="article-card-title">OPT and CPT: Work Opportunities for International Students</h3>
+                            <p class="article-card-excerpt">Understand the differences between Optional Practical Training (OPT) and Curricular Practical Training (CPT) and how to leverage these programs for your career.</p>
+                            <div class="article-card-footer">
+                                <div class="article-card-author">
+                                    <img src="./photo-folder/USAL.png" alt="Author" class="article-card-author-img">
+                                    <span class="article-card-author-name">ISIS</span>
+                                </div>
+                                <a href="blog.html" class="article-card-read-more">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Posts Tab Content -->
+            <div class="tab-content" id="blog-tab">
+                <div class="blog-post-grid">
+                    <div class="blog-post-card">
+                        <div class="blog-post-card-img-container">
+                            <img src="./photo-folder/close-up-students-library.jpg" alt="Blog Post" class="blog-post-card-img">
+                            <span class="blog-post-card-category">Student Experience</span>
+                        </div>
+                        <div class="blog-post-card-body">
+                            <div class="blog-post-card-date">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>January 15, 2024</span>
+                            </div>
+                            <h3 class="blog-post-card-title">My First Year at an American University: What I Learned</h3>
+                            <p class="blog-post-card-excerpt">A personal account of the challenges, surprises, and growth experienced during my first year studying in the United States.</p>
+                            <div class="blog-post-card-footer">
+                                <div class="blog-post-card-author">
+                                    <img src="./photo-folder/USAL.png" alt="Author" class="blog-post-card-author-img">
+                                    <span class="blog-post-card-author-name">Monetize</span>
+                                </div>
+                                <a href="blog.html" class="blog-post-card-read-more">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-post-card">
+                        <div class="blog-post-card-img-container">
+                            <img src="./photo-folder/close-up-students-library.jpg" alt="Blog Post" class="blog-post-card-img">
+                            <span class="blog-post-card-category">Financial Tips</span>
+                        </div>
+                        <div class="blog-post-card-body">
+                            <div class="blog-post-card-date">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>February 20, 2024</span>
+                            </div>
+                            <h3 class="blog-post-card-title">How I Managed My Finances as an International Student</h3>
+                            <p class="blog-post-card-excerpt">Practical advice on budgeting, saving, and making the most of your financial resources while studying abroad in the United States.</p>
+                            <div class="blog-post-card-footer">
+                                <div class="blog-post-card-author">
+                                    <img src="./photo-folder/USAL.png" alt="Author" class="blog-post-card-author-img">
+                                    <span class="blog-post-card-author-name">Confused</span>
+                                </div>
+                                <a href="blog.html" class="blog-post-card-read-more">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-post-card">
+                        <div class="blog-post-card-img-container">
+                            <img src="./photo-folder/close-up-students-library.jpg" alt="Blog Post" class="blog-post-card-img">
+                            <span class="blog-post-card-category">Cultural Adaptation</span>
+                        </div>
+                        <div class="blog-post-card-body">
+                            <div class="blog-post-card-date">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>March 5, 2024</span>
+                            </div>
+                            <h3 class="blog-post-card-title">Overcoming Culture Shock: My Journey to Feeling at Home</h3>
+                            <p class="blog-post-card-excerpt">Personal reflections on navigating cultural differences and finding a sense of belonging in a new country.</p>
+                            <div class="blog-post-card-footer">
+                                <div class="blog-post-card-author">
+                                    <img src="./photo-folder/USAL.png" alt="Author" class="blog-post-card-author-img">
+                                    <span class="blog-post-card-author-name">Kiki the boss</span>
+                                </div>
+                                <a href="blog.html" class="blog-post-card-read-more">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-post-card">
+                        <div class="blog-post-card-img-container">
+                            <img src="./photo-folder/close-up-students-library.jpg" alt="Blog Post" class="blog-post-card-img">
+                            <span class="blog-post-card-category">Academic Success</span>
+                        </div>
+                        <div class="blog-post-card-body">
+                            <div class="blog-post-card-date">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>April 12, 2024</span>
+                            </div>
+                            <h3 class="blog-post-card-title">Study Strategies That Helped Me Excel in American Classrooms</h3>
+                            <p class="blog-post-card-excerpt">Effective techniques for adapting to the American education system and achieving academic excellence.</p>
+                            <div class="blog-post-card-footer">
+                                <div class="blog-post-card-author">
+                                    <img src="./photo-folder/USAL.png" alt="Author" class="blog-post-card-author-img">
+                                    <span class="blog-post-card-author-name">ISIS</span>
+                                </div>
+                                <a href="blog.html" class="blog-post-card-read-more">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-post-card">
+                        <div class="blog-post-card-img-container">
+                            <img src="./photo-folder/close-up-students-library.jpg" alt="Blog Post" class="blog-post-card-img">
+                            <span class="blog-post-card-category">Campus Life</span>
+                        </div>
+                        <div class="blog-post-card-body">
+                            <div class="blog-post-card-date">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>May 8, 2024</span>
+                            </div>
+                            <h3 class="blog-post-card-title">Getting Involved: How Campus Activities Enhanced My College Experience</h3>
+                            <p class="blog-post-card-excerpt">The benefits of participating in extracurricular activities and how they contributed to my personal and professional growth.</p>
+                            <div class="blog-post-card-footer">
+                                <div class="blog-post-card-author">
+                                    <img src="./photo-folder/USAL.png" alt="Author" class="blog-post-card-author-img">
+                                    <span class="blog-post  class="blog-post-card-author-img">
+                                    <span class="blog-post-card-author-name">USAL</span>
+                                </div>
+                                <a href="blog.html" class="blog-post-card-read-more">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-post-card">
+                        <div class="blog-post-card-img-container">
+                            <img src="./photo-folder/close-up-students-library.jpg" alt="Blog Post" class="blog-post-card-img">
+                            <span class="blog-post-card-category">Career Development</span>
+                        </div>
+                        <div class="blog-post-card-body">
+                            <div class="blog-post-card-date">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>June 22, 2024</span>
+                            </div>
+                            <h3 class="blog-post-card-title">From Student to Professional: My OPT Experience</h3>
+                            <p class="blog-post-card-excerpt">Insights into navigating the Optional Practical Training program and transitioning from academic to professional life in the United States.</p>
+                            <div class="blog-post-card-footer">
+                                <div class="blog-post-card-author">
+                                    <img src="#" alt="Author" class="blog-post-card-author-img">
+                                    <span class="blog-post-card-author-name">USAL </span>
+                                </div>
+                                <a href="blog.html" class="blog-post-card-read-more">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- University Info Tab Content -->
+            <div class="tab-content" id="university-tab">
+                <div class="university-info-section">
+                    <div class="container">
+                        <div class="university-info-container">
+                            <div class="university-info-content">
+                                <h2 class="university-info-title">Understanding US Universities</h2>
+                                <p class="university-info-description">The American higher education system offers a diverse range of institutions with unique characteristics, admission requirements, and academic programs. Here's what you need to know:</p>
+                                
+                                <div class="university-info-list">
+                                    <div class="university-info-item">
+                                        <div class="university-info-icon">
+                                            <i class="fas fa-university"></i>
+                                        </div>
+                                        <div class="university-info-text">
+                                            <h3>Types of Institutions</h3>
+                                            <p>The US has public universities (state-funded), private universities, liberal arts colleges, community colleges, and technical institutes. Each offers different educational experiences and degree programs.</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="university-info-item">
+                                        <div class="university-info-icon">
+                                            <i class="fas fa-graduation-cap"></i>
+                                        </div>
+                                        <div class="university-info-text">
+                                            <h3>Degree Programs</h3>
+                                            <p>US universities offer Associate's (2 years), Bachelor's (4 years), Master's (1-2 years), and Doctoral degrees (3+ years) across various disciplines and specializations.</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="university-info-item">
+                                        <div class="university-info-icon">
+                                            <i class="fas fa-clipboard-check"></i>
+                                        </div>
+                                        <div class="university-info-text">
+                                            <h3>Admission Requirements</h3>
+                                            <p>Requirements typically include academic transcripts, standardized test scores (SAT/ACT for undergraduates, GRE/GMAT for graduates), English proficiency tests (TOEFL/IELTS), essays, and letters of recommendation.</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="university-info-item">
+                                        <div class="university-info-icon">
+                                            <i class="fas fa-dollar-sign"></i>
+                                        </div>
+                                        <div class="university-info-text">
+                                            <h3>Tuition and Costs</h3>
+                                            <p>Costs vary widely between institutions. Public universities typically charge lower tuition for in-state residents, while private universities have the same tuition for all students. International students should budget for tuition, living expenses, health insurance, and travel.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <a href="#" class="university-info-btn">
+                                    Explore University Guide <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                            
+                            <div class="university-info-image">
+                                <img src="./photo-folder/close-up-students-library.jpg" alt="US Universities" class="university-info-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- USA Rules Tab Content -->
+            <div class="tab-content" id="usa-rules-tab">
+                <div class="usa-rules-section">
+                    <div class="container">
+                        <div class="usa-rules-container">
+                            <div class="usa-rules-content">
+                                <h2 class="usa-rules-title">Important US Rules for International Students</h2>
+                                <p class="usa-rules-description">Understanding and following US regulations is crucial for maintaining your legal status as an international student. Here are key rules you need to know:</p>
+                                
+                                <div class="usa-rules-list">
+                                    <div class="usa-rules-item">
+                                        <div class="usa-rules-icon">
+                                            <i class="fas fa-id-card"></i>
+                                        </div>
+                                        <div class="usa-rules-text">
+                                            <h3>Maintaining F-1 Status</h3>
+                                            <p>You must maintain a full course load (typically 12 credits for undergraduates, 9 for graduates), make satisfactory academic progress, and not work off-campus without authorization.</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="usa-rules-item">
+                                        <div class="usa-rules-icon">
+                                            <i class="fas fa-briefcase"></i>
+                                        </div>
+                                        <div class="usa-rules-text">
+                                            <h3>Employment Regulations</h3>
+                                            <p>F-1 students can work on-campus up to 20 hours per week during the academic year and full-time during breaks. Off-campus work requires CPT or OPT authorization from your DSO and USCIS.</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="usa-rules-item">
+                                        <div class="usa-rules-icon">
+                                            <i class="fas fa-calendar-alt"></i>
+                                        </div>
+                                        <div class="usa-rules-text">
+                                            <h3>Grace Periods</h3>
+                                            <p>F-1 students have a 60-day grace period after completing their program to depart the US, apply for a change of status, or transfer to another school. Violating status may result in no grace period.</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="usa-rules-item">
+                                        <div class="usa-rules-icon">
+                                            <i class="fas fa-file-alt"></i>
+                                        </div>
+                                        <div class="usa-rules-text">
+                                            <h3>Reporting Requirements</h3>
+                                            <p>You must report changes in address, academic status, or program details to your DSO within 10 days. Keep your I-20 updated and valid at all times.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <a href="#" class="usa-rules-btn">
+                                    Learn More About US Regulations <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                            
+                            <div class="usa-rules-image">
+                                <img src="./photo-folder/close-up-students-library.jpg" alt="US Regulations" class="usa-rules-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- E-Book Section -->
+    <section class="ebook-section">
+        <div class="container">
+            <div class="ebook-container">
+                <div class="ebook-content">
+                    <span class="ebook-label">Free Resource</span>
+                    <h2 class="ebook-title">USAL eBook</h2>
+                    <h3 class="ebook-subtitle">January Edition</h3>
+                    <p class="ebook-description">Our comprehensive guide to studying in the USA covers everything from university selection to visa applications, financial planning, and cultural adaptation. Download this valuable resource to start your journey with confidence.</p>
+                    <a href="book.pdf" download="eBOOK.pdf" class="ebook-btn">
+                        <i class="fas fa-download"></i> Download PDF
+                    </a>
+                </div>
+                <div class="ebook-image">
+                    <img src="./photo-folder/frontpage.jpg" alt="USAL eBook">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-container">
+                <h2 class="newsletter-title">Subscribe to Our Newsletter</h2>
+                <p class="newsletter-description">Stay updated with the latest educational resources, visa processes, and study abroad opportunities.</p>
+                <form class="newsletter-form">
+                    <input type="email" class="newsletter-input" placeholder="Enter your email address">
+                    <button type="submit" class="newsletter-btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-logo">
+                        <!-- <div class="footer-logo-icon"><i class="fas fa-graduation-cap"></i></div> -->
+                        USAL
+                    </div>
+                    <p class="footer-description">We are a trusted community providing expert guidance for students pursuing their dream of studying in the USA. From selecting the right university to navigating the visa process, we offer valuable insights and resources to ensure your success.</p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com/groups/407151185598666/" class="footer-social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/usa_self_learn?igsh=bmg0ajlueHdqc3py" class="footer-social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://t.me/+K9Qhk2C3zwM4ODQ9" class="footer-social-link"><i class="fab fa-telegram-plane"></i></a>
+                        <a href="https://youtube.com/@usaselfapply?si=4omZV3cF3UzBIVHq" class="footer-social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.tiktok.com/@usa.self.learn?_t=ZS-8teY7ivI0eO&_r=1" class="footer-social-link"><i class="fab fa-tiktok"></i></a>
+                        <!-- <a href="#" class="footer-social-link"><i class="fab fa-linkedin-in"></i></a> -->
+                    </div>
+                </div>
+                <div>
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="homepage.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="aboutpage.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="university.html"><i class="fas fa-chevron-right"></i> Universities</a></li>
+                        <li><a href="blogpage.html"><i class="fas fa-chevron-right"></i> Blog & News</a></li>
+                        <li><a href="resource.html"><i class="fas fa-chevron-right"></i> Resources</a></li>
+                        <li><a href="resource.html#questions"><i class="fas fa-chevron-right"></i> Visa Questions</a></li>
+                        <li><a href="resource.html#process"><i class="fas fa-chevron-right"></i> About Processing</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer-title">Useful Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="homepage.html#ebk"><i class="fas fa-chevron-right"></i>E-book</a></li>
+                        <li><a href="university.html#uni-match"><i class="fas fa-chevron-right"></i>UNIVERSITY match</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Privacy Policy</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Terms & Conditions</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer-title">Contact Us</h3>
+                    <ul class="footer-contact">
+                        <li>
+                            <div class="footer-contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="footer-contact-text">Kathmandu, Nepal, USA</div>
+                        </li>
+                        <li>
+                            <div class="footer-contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="footer-contact-text">usaselflearn@gmail.com</div>
+                        </li>
+                        <li>
+                            <!-- <div class="footer-contact-icon"><i class="fas fa-phone-alt"></i></div> -->
+                            <!-- <div class="footer-contact-text">+1 (123) 456-7890</div> -->
+                        </li>
+                    </ul>
+                    <div class="footer-form">
+                        <h4 class="footer-form-title">Send Message</h4>
+                        <form>
+                            <input type="text" class="footer-form-input" placeholder="Full Name">
+                            <input type="email" class="footer-form-input" placeholder="Email Address">
+                            <input type="text" class="footer-form-input" placeholder="Your Question">
+                            <button type="submit" class="footer-form-btn">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>Copyright © 2024 USAL (USA Self Learn). All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- live chat -->
+    <div class="chat-container" id="chatContainer">
+        <div class="chat-header">
+            <div class="chat-title">
+                <i class="fas fa-comments mr-2"></i> Live Chat
+            </div>
+            <button class="chat-close" id="chatClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    
+        <div class="chat-messages" id="chatMessages">
+            <div class="chat-message bot">
+                👋 Hi there! How can I help you today?
+            </div>
+        </div>
+    
+        <div class="chat-input-container">
+            <input type="text" class="chat-input" id="chatInput" placeholder="Type your message...">
+            <button class="chat-send" id="chatSend">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+    
+    <div class="chat-widget" id="chatWidget">
+        <button class="chat-button" id="chatButton">
+            <i class="fas fa-comments"></i>
+        </button>
+    </div>
+    
+     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+     <script src="./js-folder/blogpage.js"></script>
+</body>
+</html>

@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USAL Self Learn - Your Guide to Studying in the USA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css folder/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-container">
+                <a href="#" class="logo">
+                    <!-- <div class="logo-icon"><i class="fas fa-graduation-cap"></i></div> -->
+                    USAL
+                </a>
+                <nav class="nav" id="nav">
+                    <a href="homepage.html" class="nav-link active">Home</a>
+                    <a href="#visa" class="nav-link">USA Visa Process</a>
+                    <a href="uni3.html" class="nav-link">Universities</a>
+                    <a href="#mat" class="nav-link">Resource</a>
+                    <a href="blogpage.html" class="nav-link">BLog & News</a>
+                </nav>
+                <button class="mobile-menu-btn" id="menu-icon">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav" id="mobile-nav">
+        <div class="overlay" id="overlay"></div>
+        <nav class="navbar1">
+            <a href="homepage.html">Home</a>
+            <a href="#visa">USA Visa Process</a>
+            <a href="university.html">Universities</a>
+            <a href="#mat">Materials</a>
+            <a href="blogpage.html">Blog & News</a>
+        </nav>
+        <div class="mobile-menu-footer">
+            <div class="social-links">
+              <a href="https://facebook.com/groups/407151185598666/" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/usa_self_learn?igsh=bmg0ajlueHdqc3py" class="social-link"><i class="fab fa-instagram"></i></a>
+              <a href="https://youtube.com/@usaselfapply?si=4omZV3cF3UzBIVHq" class="social-link"><i class="fab fa-youtube"></i></a>
+              <a href="https://www.tiktok.com/@usa.self.learn?_t=ZS-8teY7ivI0eO&_r=1" class="social-link"><i class="fab fa-telegram"></i></a>
+            </div>
+            <a href="https://t.me/+K9Qhk2C3zwM4ODQ9" class="btn btn-primary btn-block">Join Community</a>
+          </div>
+    </div>
+    <!-- <div class="mobile-nav" id="mobile-nav">
+        <div class="mobile-menu-header">
+          <a href="#" class="logo">
+              
+            <span>USAL</span>
+          </a>
+          <button class="mobile-menu-close">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <nav class="mobile-nav">
+          <ul class="mobile-nav-list">
+            <li class="mobile-nav-item"><a href="#" class="mobile-nav-link">Home</a></li>
+            <li class="mobile-nav-item"><a href="#about" class="mobile-nav-link active">About</a></li>
+            <li class="mobile-nav-item"><a href="#resources" class="mobile-nav-link">Resources</a></li>
+            <li class="mobile-nav-item"><a href="#success-stories" class="mobile-nav-link">Success Stories</a></li>
+            <li class="mobile-nav-item"><a href="#faq" class="mobile-nav-link">FAQ</a></li>
+            <li class="mobile-nav-item"><a href="#contact" class="mobile-nav-link">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="mobile-menu-footer">
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+          </div>
+          <a href="#join" class="btn btn-primary btn-block">Join Community</a>
+        </div>
+    </div> -->
+    
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="container">
+            <div class="home-container">
+                <div class="home-content">
+                    <h1>USA Self Learn</h1>
+                    <div class="text-head">
+                        <h3>"Building Path To Success, Together"</h3>
+                    </div>
+                    <p>USA Self Learn (USAL) is an online community dedicated to providing valuable information and resources for students planning to study in the United States or currently residing there. Our content includes podcasts featuring discussions on campus life, scholarships, visa tips, and personal experiences from students and professionals. These discussions aim to inspire and assist students in their educational journey in the USA.</p>
+                    <div class="button-container">
+                        <button class="btn" onclick="GoToUniPage()"><i class="fas fa-university"></i> Universities</button>
+                        <button class="btn secondary" onclick="GoToResourcesPage()"><i class="fas fa-book"></i> Resources</button>
+                       <a href="resource.html#questions"><button class="btn outline"><i class="fas fa-question-circle"></i> Interview Questions</button></a>
+                    </div>
+                </div>
+                <div class="home-image">
+                    <img src="./photo-folder/USAL.png" alt="USAL Logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="social-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">Join Our Community</p>
+                <h2 class="section-title">Connect With Us</h2>
+                <p class="section-description">Follow us on social media to stay updated with the latest information and resources</p>
+            </div>
+            <div class="social-grid">
+                <div class="social-card">
+                    <a href="https://www.youtube.com/@Usaselfapply" target="_blank" class="social-icon">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <h3 class="social-title">YouTube</h3>
+                    <p class="social-count" id="sub1_count">1000+</p>
+                    <p class="social-label">Subscribers</p>
+                </div>
+                <div class="social-card">
+                    <a href="https://www.facebook.com/groups/407151185598666" target="_blank" class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <h3 class="social-title">Facebook</h3>
+                    <p class="social-count">31000+</p>
+                    <p class="social-label">Members</p>
+                </div>
+                <div class="social-card">
+                    <a href="https://t.me/+K9Qhk2C3zwM4ODQ9" target="_blank" class="social-icon">
+                        <i class="fab fa-telegram-plane"></i>
+                    </a>
+                    <h3 class="social-title">Telegram</h3>
+                    <p class="social-count" id="sub2_count">500+</p>
+                    <p class="social-label">Members</p>
+                </div>
+                <div class="social-card">
+                    <a href="https://www.tiktok.com/@usa.self.learn?_t=ZS-8sq08pXqUdE&_r=1" target="_blank" class="social-icon">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <h3 class="social-title">TikTok</h3>
+                    <p class="social-count">100+</p>
+                    <p class="social-label">Followers</p>
+                </div>
+                <div class="social-card">
+                    <a href="https://www.instagram.com/usa.selflearn/" target="_blank" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <h3 class="social-title">Instagram</h3>
+                    <p class="social-count">300+</p>
+                    <p class="social-label">Followers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section class="community-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">Our Platforms</p>
+                <h2 class="section-title">Community Resources</h2>
+                <p class="section-description">Explore our various platforms and resources to enhance your learning journey</p>
+            </div>
+            <div class="community-grid">
+                <div class="community-card">
+                    <img src="./photo-folder/usalyoutube.png" alt="USAL YouTube" class="community-img">
+                    <div class="community-content">
+                        <h3 class="community-title">YouTube Channel</h3>
+                        <p class="community-description">Watch our informative videos about studying in the USA, visa processes, and university selection.</p>
+                        <button class="btn" onclick="window.open('https://www.youtube.com/@Usaselfapply', '_blank')">Visit Channel</button>
+                    </div>
+                </div>
+                <div class="community-card">
+                    <img src="./photo-folder/usalfb.png" alt="USAL Facebook" class="community-img">
+                    <div class="community-content">
+                        <h3 class="community-title">Facebook Group</h3>
+                        <p class="community-description">Join our active community to connect with other students and get your questions answered.</p>
+                        <button class="btn" onclick="window.open('https://www.facebook.com/groups/407151185598666', '_blank')">Join Group</button>
+                    </div>
+                </div>
+                <div class="community-card">
+                    <img src="./photo-folder/usalinsta.png" alt="USAL Telegram" class="community-img">
+                    <div class="community-content">
+                        <h3 class="community-title">Telegram Channel</h3>
+                        <p class="community-description">Get instant updates and resources directly on your phone through our Telegram channel.</p>
+                        <button class="btn" onclick="window.open('https://t.me/+K9Qhk2C3zwM4ODQ9', '_blank')">Join Channel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visa Process Section -->
+    <section class="visa-section" id="visa">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">Step-by-Step Guide</p>
+                <h2 class="section-title">USA Visa Process</h2>
+                <p class="section-description">Follow these essential steps to successfully navigate the US visa application process</p>
+            </div>
+            <div class="visa-container">
+                <div class="visa-content">
+                    <div class="points-container">
+                        <div class="point">
+                            <div class="point-icon"><i class="fas fa-passport"></i></div>
+                            <h3 class="point-title">Determine Visa Type</h3>
+                            <p class="point-description">Identify the visa that fits your purpose of travel, such as F-1 for students or B-1/B-2 for business/tourism.</p>
+                        </div>
+                        <div class="point">
+                            <div class="point-icon"><i class="fas fa-file-alt"></i></div>
+                            <h3 class="point-title">Complete DS-160 Form</h3>
+                            <p class="point-description">Fill out the online non-immigrant visa application form with accurate personal and travel information.</p>
+                        </div>
+                        <div class="point">
+                            <div class="point-icon"><i class="fas fa-money-bill-wave"></i></div>
+                            <h3 class="point-title">Pay Visa Fee</h3>
+                            <p class="point-description">Pay the non-refundable visa application fee online or at designated banks.</p>
+                        </div>
+                    </div>
+                    <div class="points-container">
+                        <div class="point">
+                            <div class="point-icon"><i class="fas fa-calendar-alt"></i></div>
+                            <h3 class="point-title">Schedule Appointments</h3>
+                            <p class="point-description">Book biometric appointment for fingerprints and photo, and visa interview at the US Embassy or Consulate.</p>
+                        </div>
+                        <div class="point">
+                            <div class="point-icon"><i class="fas fa-clipboard-check"></i></div>
+                            <h3 class="point-title">Prepare for Interview</h3>
+                            <p class="point-description">Gather required documents and practice answering common interview questions confidently.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="visa-image">
+                    <img src="./photo-folder/visa.png" alt="USA Visa Process">
+                    <div class="button-container" style="text-align: center; margin-top: 30px;">
+                        <button class="btn" onclick="GoToNextPage()">Learn More About Visa Process</button>
+                        <!-- <button class="btn" src="resource.html#process">Learn More About Visa Process</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Universities Section -->
+    <section class="universities-section" id="uni">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">Education Options</p>
+                <h2 class="section-title">Renowned Universities</h2>
+                <p class="section-description">Explore these top universities that offer excellent programs for international students</p>
+            </div>
+            <div class="universities-grid">
+                <div class="university-card">
+                    <div class="university-header">
+                        <h3 class="university-title">Louisiana Tech University</h3>
+                        <p class="university-location">Ruston, Louisiana</p>
+                    </div>
+                    <div class="university-body">
+                        <div class="university-requirements">
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">GPA:</span>
+                                <span class="university-requirement-value">3.0+</span>
+                            </div>
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">EPT:</span>
+                                <span class="university-requirement-value">TOEFL 80+ / IELTS 6.5+</span>
+                            </div>
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">SAT:</span>
+                                <span class="university-requirement-value">1100+</span>
+                            </div>
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">COA:</span>
+                                <span class="university-requirement-value">$28,000/year</span>
+                            </div>
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">Scholarships:</span>
+                                <span class="university-requirement-value">Up to $15,000/year</span>
+                            </div>
+                        </div>
+                        <a href="https://www.latech.edu/" target="_blank" class="university-btn">
+                            Learn More <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="university-card">
+                    <div class="university-header">
+                        <h3 class="university-title">Dakota State University</h3>
+                        <p class="university-location">Madison, South Dakota</p>
+                    </div>
+                    <div class="university-body">
+                        <div class="university-requirements">
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">GPA:</span>
+                                <span class="university-requirement-value">2.8+</span>
+                            </div>
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">EPT:</span>
+                                <span class="university-requirement-value">TOEFL 71+ / IELTS 6.0+</span>
+                            </div>
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">SAT:</span>
+                                <span class="university-requirement-value">1050+</span>
+                            </div>
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">COA:</span>
+                                <span class="university-requirement-value">$24,000/year</span>
+                            </div>
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">Scholarships:</span>
+                                <span class="university-requirement-value">Up to $12,000/year</span>
+                            </div>
+                        </div>
+                        <a href="https://dsu.edu/" target="_blank" class="university-btn">
+                            Learn More <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="university-card">
+                    <div class="university-header">
+                        <h3 class="university-title">Webster State University</h3>
+                        <p class="university-location">St. Louis, Missouri</p>
+                    </div>
+                    <div class="university-body">
+                        <div class="university-requirements">
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">GPA:</span>
+                                <span class="university-requirement-value">3.0+</span>
+                            </div>
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">EPT:</span>
+                                <span class="university-requirement-value">TOEFL 75+ / IELTS 6.0+</span>
+                            </div>
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">SAT:</span>
+                                <span class="university-requirement-value">1080+</span>
+                            </div>
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">COA:</span>
+                                <span class="university-requirement-value">$32,000/year</span>
+                            </div>
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">Scholarships:</span>
+                                <span class="university-requirement-value">Up to $18,000/year</span>
+                            </div>
+                        </div>
+                        <a href="https://www.webster.edu/" target="_blank" class="university-btn">
+                            Learn More <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="university-card">
+                    <div class="university-header">
+                        <h3 class="university-title">Rowan State University</h3>
+                        <p class="university-location">Glassboro, New Jersey</p>
+                    </div>
+                    <div class="university-body">
+                        <div class="university-requirements">
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">GPA:</span>
+                                <span class="university-requirement-value">3.2+</span>
+                            </div>
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">EPT:</span>
+                                <span class="university-requirement-value">TOEFL 85+ / IELTS 6.5+</span>
+                            </div>
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">SAT:</span>
+                                <span class="university-requirement-value">1150+</span>
+                            </div>
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">COA:</span>
+                                <span class="university-requirement-value">$35,000/year</span>
+                            </div>
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">Scholarships:</span>
+                                <span class="university-requirement-value">Up to $20,000/year</span>
+                            </div>
+                        </div>
+                        <a href="#" target="_blank" class="university-btn">
+                            Learn More <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="university-card">
+                    <div class="university-header">
+                        <h3 class="university-title">Morehead State University</h3>
+                        <p class="university-location">Morehead, Kentucky</p>
+                    </div>
+                    <div class="university-body">
+                        <div class="university-requirements">
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">GPA:</span>
+                                <span class="university-requirement-value">2.5+</span>
+                            </div>
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">EPT:</span>
+                                <span class="university-requirement-value">TOEFL 61+ / IELTS 5.5+</span>
+                            </div>
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">SAT:</span>
+                                <span class="university-requirement-value">1000+</span>
+                            </div>
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">COA:</span>
+                                <span class="university-requirement-value">$26,000/year</span>
+                            </div>
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">Scholarships:</span>
+                                <span class="university-requirement-value">Up to $10,000/year</span>
+                            </div>
+                        </div>
+                        <a href="https://www.moreheadstate.edu/" target="_blank" class="university-btn">
+                            Learn More <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="university-card">
+                    <div class="university-header">
+                        <h3 class="university-title">McNeese State University</h3>
+                        <p class="university-location">Lake Charles, Louisiana</p>
+                    </div>
+                    <div class="university-body">
+                        <div class="university-requirements">
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">GPA:</span>
+                                <span class="university-requirement-value">2.7+</span>
+                            </div>
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">EPT:</span>
+                                <span class="university-requirement-value">TOEFL 70+ / IELTS 6.0+</span>
+                            </div>
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">SAT:</span>
+                                <span class="university-requirement-value">1030+</span>
+                            </div>
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">COA:</span>
+                                <span class="university-requirement-value">$27,000/year</span>
+                            </div>
+                            <div class="university-requirement">
+                                <span class="university-requirement-label">Scholarships:</span>
+                                <span class="university-requirement-value">Up to $14,000/year</span>
+                            </div>
+                        </div>
+                        <a href="#" target="_blank" class="university-btn">
+                            Learn More <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- <a href="#" class="view-more-btn" onclick="GoToNextPage()">
+                View More Universities <i class="fas fa-arrow-right"></i>
+            </a> -->
+            <a href="university.html#uni" class="view-more-btn">
+                View More Universities <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- E-Book Section -->
+    <section class="ebook-section" id="ebk">
+        <div class="container">
+            <div class="ebook-container">
+                <div class="ebook-content">
+                    <span class="ebook-label">Free Resource</span>
+                    <h2 class="ebook-title">USAL eBook</h2>
+                    <h3 class="ebook-subtitle">January Edition</h3>
+                    <p class="ebook-description">Our comprehensive guide to studying in the USA covers everything from university selection to visa applications, financial planning, and cultural adaptation. Download this valuable resource to start your journey with confidence.</p>
+                    <a href="book.pdf" download="eBOOK.pdf" class="ebook-btn">
+                        <i class="fas fa-download"></i> Download PDF
+                    </a>
+                </div>
+                <div class="ebook-image">
+                    <img src="./photo-folder/frontpage.jpg" alt="USAL eBook">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section class="resources-section" id="mat">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">Study Materials</p>
+                <h2 class="section-title">Resources & Materials</h2>
+                <p class="section-description">Access our comprehensive collection of study materials to help you prepare for your exams</p>
+            </div>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <div class="resource-img-container">
+                        <img src="./photo-folder/ielts.jpg" alt="IELTS" class="resource-img">
+                    </div>
+                    <div class="resource-content">
+                        <h3 class="resource-title">IELTS</h3>
+                        <p class="resource-description">Comprehensive preparation materials for the International English Language Testing System.</p>
+                        <button class="resource-btn" onclick="GoToResourcesPage()">
+                            <i class="fas fa-book"></i> Access Materials
+                        </button>
+                    </div>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-img-container">
+                        <img src="./photo-folder/pte.jpg" alt="PTE" class="resource-img">
+                    </div>
+                    <div class="resource-content">
+                        <h3 class="resource-title">PTE</h3>
+                        <p class="resource-description">Study guides and practice tests for the Pearson Test of English Academic.</p>
+                        <button class="resource-btn" onclick="GoToResourcesPage()">
+                            <i class="fas fa-book"></i> Access Materials
+                        </button>
+                    </div>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-img-container">
+                        <img src="./photo-folder/sat.png" alt="SAT" class="resource-img">
+                    </div>
+                    <div class="resource-content">
+                        <h3 class="resource-title">SAT</h3>
+                        <p class="resource-description">Essential resources to help you achieve your target score on the SAT exam.</p>
+                        <button class="resource-btn" onclick="GoToResourcesPage()">
+                            <i class="fas fa-book"></i> Access Materials
+                        </button>
+                    </div>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-img-container">
+                        <img src="./photo-folder/gre.jpg" alt="GRE" class="resource-img">
+                    </div>
+                    <div class="resource-content">
+                        <h3 class="resource-title">GRE</h3>
+                        <p class="resource-description">Preparation materials for the Graduate Record Examination for graduate school admissions.</p>
+                        <button class="resource-btn" onclick="GoToResourcesPage()">
+                            <i class="fas fa-book"></i> Access Materials
+                        </button>
+                    </div>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-img-container">
+                        <img src="./photo-folder/det.png" alt="GMAT" class="resource-img">
+                    </div>
+                    <div class="resource-content">
+                        <h3 class="resource-title">Duolingo</h3>
+                        <p class="resource-description">Study materials for the Graduate Management Admission Test for business school applicants.</p>
+                        <button class="resource-btn" onclick="GoToResourcesPage()">
+                            <i class="fas fa-book"></i> Access Materials
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="resources-btn" onclick="GoToResourcesPage()">
+                View All Resources <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contactus">
+        <div class="container">
+          <div class="footer-grid">
+            <div>
+              <div class="footer-logo">
+                <!-- <div class="footer-logo-icon"><i class="fas fa-graduation-cap"></i></div> -->
+                USAL
+              </div>
+              <p class="footer-description">We are a trusted community providing expert guidance for students pursuing their dream of studying in the USA. From selecting the right university to navigating the visa process, we offer valuable insights and resources to ensure your success.</p>
+              <div class="footer-social">
+                <a href="https://facebook.com/groups/407151185598666/" class="footer-social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://t.me/+K9Qhk2C3zwM4ODQ9" class="footer-social-link"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://www.instagram.com/usa_self_learn?igsh=bmg0ajlueHdqc3py" class="footer-social-link"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@usa.self.learn?_t=ZS-8teY7ivI0eO&_r=1" class="footer-social-link"><i class="fa-brands fa-tiktok"></i></a>
+                <!-- <a href="https://www.tiktok.com/@usa.self.learn?_t=ZS-8teY7ivI0eO&_r=1" ><i class="fa-brands fa-tiktok"></i></a> -->
+                <a href="https://youtube.com/@usaselfapply?si=4omZV3cF3UzBIVHq" class="footer-social-link"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+            <div>
+              <h3 class="footer-title">Quick Links</h3>
+              <ul class="footer-links">
+                <li><a href="homepage.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                <li><a href="uni3.html"><i class="fas fa-chevron-right"></i> University Selection</a></li>
+                <li><a href="#visa"><i class="fas fa-chevron-right"></i> USA Visa Process</a></li>
+                <li><a href="#uni"><i class="fas fa-chevron-right"></i> Universities</a></li>
+                <li><a href="#contactus"><i class="fas fa-chevron-right"></i> </a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="footer-title">Useful Links</h3>
+              <ul class="footer-links">
+                <li><a href="aboutpage.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                <li><a href="blogpage.html"><i class="fas fa-chevron-right"></i>News & Blog</a></li>
+                <li><a href="resource.html"><i class="fas fa-chevron-right"></i>Our Resource</a></li>
+                <li><a href="university.html"><i class="fas fa-chevron-right"></i>University</a></li>
+                <li><a href="homepage.html#ebk"><i class="fas fa-chevron-right"></i>E-book</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="footer-title">Contact Us</h3>
+              <ul class="footer-contact">
+                <li>
+                  <div class="footer-contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                  <div class="footer-contact-text">Kathmandu, Nepal</div>
+                </li>
+                <li>
+                  <div class="footer-contact-icon"><i class="fas fa-envelope"></i></div>
+                  <div class="footer-contact-text">usaselflearn@gmail.com</div>
+                </li>
+                <li>
+                  <!-- <div class="footer-contact-icon"><i class="fas fa-phone-alt"></i></div> -->
+                  <!-- <div class="footer-contact-text"></div> -->
+                </li>
+              </ul>
+              <div class="footer-form">
+                <h4 class="footer-form-title">Send Message</h4>
+                <form>
+                  <input type="text" class="footer-form-input" placeholder="Full Name">
+                  <input type="email" class="footer-form-input" placeholder="Email Address">
+                  <input type="text" class="footer-form-input" placeholder="Your Question">
+                  <button type="submit" class="footer-form-btn">Send</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          
+          <div class="footer-bottom">
+            <!-- <p>Copyright © 2023 USAL (USA Self Learn). All Rights Reserved</p> -->
+                <p>&copy; 2024 USA Self Learn (USAL). All rights reserved.</p>
+                <ul class="footer-legal">
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms of Service</a></li>
+                  <li><a href="#">Cookie Policy</a></li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- chat -->
+    <!-- <div class="chat-container" id="chatContainer">
+        <div class="chat-header">
+            <div>
+    <div class="chat-widget" id="chatWidget">
+        <div class="chat-button" id="chatButton">
+           class="chat-title">
+                <i class="fas fa-comments mr-2"></i> Live Chat
+            </div>
+            <button class="chat-close" id="chatClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="chat-message bot">
+                👋 Hi there! How can I help you today?
+            </div>
+        </div>
+        <div class="chat-input-container">
+            <input type="text" class="chat-input" id="chatInput" placeholder="Type your message...">
+            <button class="chat-send" id="chatSend">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div> -->
+
+    <div class="chat-container" id="chatContainer">
+        <div class="chat-header">
+            <div class="chat-title">
+                <i class="fas fa-comments mr-2"></i> Live Chat
+            </div>
+            <button class="chat-close" id="chatClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    
+        <div class="chat-messages" id="chatMessages">
+            <div class="chat-message bot">
+                👋 Hi there! How can I help you today?
+            </div>
+        </div>
+    
+        <div class="chat-input-container">
+            <input type="text" class="chat-input" id="chatInput" placeholder="Type your message...">
+            <button class="chat-send" id="chatSend">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+    
+    <div class="chat-widget" id="chatWidget">
+        <button class="chat-button" id="chatButton">
+            <i class="fas fa-comments"></i>
+        </button>
+    </div>
+    
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="js-folder/homepage.js"></script>
+</body>
+</html>
